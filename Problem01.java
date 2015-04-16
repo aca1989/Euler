@@ -1,7 +1,7 @@
 // This class finds the sum of all the numbers under 1000
 // that are multiples of three or five
 
-public class Problem1 {
+public class Problem01 {
 
     public static void main(String args[])
     {

@@ -3,9 +3,9 @@
 // digits with the largest product
 import java.io.*;
 
-public class Problem8
+public class Problem08
 {
-	private static final String FILE = "/home/aaron/Documents/Git/Euler/Files/Problem8.txt";
+	private static final String FILE = "/home/aaron/Documents/Git/Euler/Files/Problem08.txt";
 	private static final int SIZE = 1000;
 	private static long largestProduct = 0L;
 	private static long[] array;

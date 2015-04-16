@@ -2,7 +2,7 @@
 // Find the difference between the sum of the square and the
 // square of the sum of the first 100 digits
 
-public class Problem6
+public class Problem06
 {
 	public static void main(String args[])
 	{

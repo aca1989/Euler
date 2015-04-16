@@ -1,6 +1,6 @@
 // Find the smallest number that is evenly divisible by the numbers 1 to 20
 
-public class Problem5
+public class Problem05
 {
 	public static void main(String args[])
 	{

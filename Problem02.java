@@ -1,7 +1,7 @@
 // This class finds the sum off all even-valued terms of the Fibonacci
 // sequence whose values do not exceed four million
 
-public class Problem2
+public class Problem02
 {
 
     public static void main(String args[])

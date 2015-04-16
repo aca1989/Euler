@@ -2,7 +2,7 @@
 // 600851475143
 import java.util.ArrayList;
 
-public class Problem3
+public class Problem03
 {
   
 	final static long NUMBER_TO_FACTOR = 600851475143L;
@@ -13,11 +13,6 @@ public class Problem3
 		ArrayList<Long> factors = new ArrayList<Long>();
 
 		findFactors(factors);
-
-		// Displays all the factors of NUMBER_TO_FACTOR
-		for(int i = 0; i < factors.size(); i++)
-			System.out.println(i + ") " + factors.get(i));
-
 		findPrimes(factors);
 
 		// Displays the largest prime factor of NUMBER_TO_FACTOR

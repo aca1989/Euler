@@ -1,7 +1,7 @@
 // 10001st prime
 // Find the 10001st prime number
 
-public class Problem7
+public class Problem07
 {
 	public static final int MAX = 10001;
 

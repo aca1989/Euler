@@ -7,7 +7,7 @@ import java.util.*;
 
 public class Problem11
 {
-	private static final String FILE = "/home/aaron/Documents/Git/Euler/Files/Problem11.txt";
+	private static final String FILE = "Files/Problem11.txt";
 	private static final int ROW = 20;
 	private static final int COL = 20;
 	private static int[][] grid;

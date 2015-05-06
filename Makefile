@@ -19,7 +19,8 @@ JFLAGS  =
 #
 default: Problem01.class Problem02.class Problem03.class Problem04.class Problem05.class \
 		 Problem06.class Problem07.class Problem08.class Problem09.class Problem10.class \
-		 Problem11.class Problem12.class
+		 Problem11.class Problem12.class Problem13.class Problem14.class \
+		 Problem16.class
 
 # 'make ProblemXX.java' compiles a single problem
 #
@@ -59,6 +60,15 @@ Problem11.class: Problem11.java
 Problem12.class: Problem12.java
 	$(JCC) $(JFLAGS) Problem12.java
 
+Problem13.class: Problem13.java
+	$(JCC) $(JFLAGS) Problem13.java
+
+Problem14.class: Problem14.java
+	$(JCC) $(JFLAGS) Problem14.java
+
+Problem16.class: Problem16.java
+	$(JCC) $(JFLAGS) Problem16.java
+
 # Runs all the programs
 Run: 
 	$(JRE) Problem01
@@ -73,6 +83,9 @@ Run:
 	$(JRE) Problem10
 	$(JRE) Problem11
 	$(JRE) Problem12
+	$(JRE) Problem13
+	$(JRE) Problem14
+	$(JRE) Problem16
 
 # 'Make clean' removes all .class files so the next make
 # rebuilds them

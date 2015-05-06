@@ -5,7 +5,7 @@ import java.io.*;
 
 public class Problem08
 {
-	private static final String FILE = "/home/aaron/Documents/Git/Euler/Files/Problem08.txt";
+	private static final String FILE = "Files/Problem08.txt";
 	private static final int SIZE = 1000;
 	private static long largestProduct = 0L;
 	private static long[] array;
